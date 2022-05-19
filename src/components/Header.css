@@ -1,0 +1,68 @@
+.desktop {
+  /* background-color: black; */
+  color: #fff;
+}
+.desktop .navmenu {
+  display: flex;
+  justify-content: flex-end;
+}
+.desktop .navmenu ul {
+  display: flex;
+  align-items: center;
+}
+.desktop .navmenu ul li {
+  list-style: none;
+  margin: 0px 32px;
+}
+
+.desktop .navmenu .action {
+  display: flex;
+  background: #1f1f1f;
+  padding: 18px 30px;
+  font-family: "Advent Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: #ffffff;
+  position: relative;
+}
+
+.desktop .navmenu .action .border1 {
+  height: 20px;
+  width: 20px;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+}
+.desktop .navmenu .action .border2 {
+  height: 20px;
+  width: 20px;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+}
+.desktop .navmenu .action .border3 {
+  height: 20px;
+  width: 20px;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+.desktop .navmenu .action .border4 {
+  height: 20px;
+  width: 20px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  position: absolute;
+  top: 0;
+  right: 0px;
+}

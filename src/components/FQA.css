@@ -1,0 +1,320 @@
+.title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  padding: 32px;
+  line-height: 30px;
+}
+
+.details {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  display: block;
+  transition: 0.5s;
+  color: white !important;
+  text-align: center !important;
+}
+
+.details-hiden {
+  display: none;
+  transition: 0.5s;
+}
+
+.accord-body {
+  position: relative;
+  background: #6f6e6e43;
+  padding: 32px 0;
+  margin-bottom: 16px;
+}
+.accord-body:last-child {
+  margin-bottom: 0px;
+}
+
+.shape {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-top: 1.08px solid #fff;
+  border-left: 1.08px solid #fff;
+  left: 0;
+  top: 0;
+}
+
+.shape-2 {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-right: 1.08px solid #fff;
+  border-top: 1.08px solid #fff;
+  right: 0;
+  top: 0;
+}
+
+.shape-3 {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-bottom: 1.08px solid #fff;
+  border-left: 1.08px solid #fff;
+  bottom: 0;
+  left: 0;
+}
+
+.shape-4 {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-bottom: 1.08px solid #fff;
+  border-right: 1.08px solid #fff;
+  right: 0;
+  bottom: 0;
+}
+
+button {
+  color: #fff;
+  background: none;
+  border: none;
+  margin: 0 auto;
+}
+
+.basic-tran {
+  font-size: 30px;
+  transition: 1s;
+}
+
+.costom-css1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .section-title {
+    font-size: 50px;
+  }
+
+  .faq-container {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .accord-body {
+    padding: 5px 0;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    padding: 4px;
+    line-height: 1;
+  }
+
+  .details {
+    font-weight: 700;
+    font-size: 28px;
+    padding: 4px;
+    line-height: 1;
+  }
+
+  .basic-tran {
+    font-size: 24px;
+  }
+
+  .shape {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-top: 1.08px solid #fff;
+    border-left: 1.08px solid #fff;
+    left: 0;
+    top: 0;
+  }
+
+  .shape-2 {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-right: 1.08px solid #fff;
+    border-top: 1.08px solid #fff;
+    right: 0;
+    top: 0;
+  }
+
+  .shape-3 {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-bottom: 1.08px solid #fff;
+    border-left: 1.08px solid #fff;
+    bottom: 0;
+    left: 0;
+  }
+
+  .shape-4 {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-bottom: 1.08px solid #fff;
+    border-right: 1.08px solid #fff;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section-title {
+    font-size: 50px;
+  }
+
+  .faq-container {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .accord-body {
+    padding: 5px 0;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px;
+    line-height: 10px;
+  }
+
+  .details {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 4px;
+    line-height: 1;
+  }
+
+  .basic-tran {
+    font-size: 20px;
+  }
+  .shape {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-top: 1.08px solid #fff;
+    border-left: 1.08px solid #fff;
+    left: 0;
+    top: 0;
+  }
+
+  .shape-2 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-right: 1.08px solid #fff;
+    border-top: 1.08px solid #fff;
+    right: 0;
+    top: 0;
+  }
+
+  .shape-3 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-bottom: 1.08px solid #fff;
+    border-left: 1.08px solid #fff;
+    bottom: 0;
+    left: 0;
+  }
+
+  .shape-4 {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-bottom: 1.08px solid #fff;
+    border-right: 1.08px solid #fff;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section-title {
+    font-size: 40px;
+  }
+
+  .faq-container {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .accord-body {
+    padding: 5px 0;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 4px;
+    line-height: 1;
+  }
+
+  .details {
+    font-weight: 700;
+    font-size: 14px;
+    padding: 4px;
+    line-height: 1;
+  }
+
+  .basic-tran {
+    font-size: 16px;
+  }
+
+  .shape {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-top: 1.08px solid #fff;
+    border-left: 1.08px solid #fff;
+    left: 0;
+    top: 0;
+  }
+
+  .shape-2 {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-right: 1.08px solid #fff;
+    border-top: 1.08px solid #fff;
+    right: 0;
+    top: 0;
+  }
+
+  .shape-3 {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-bottom: 1.08px solid #fff;
+    border-left: 1.08px solid #fff;
+    bottom: 0;
+    left: 0;
+  }
+
+  .shape-4 {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-bottom: 1.08px solid #fff;
+    border-right: 1.08px solid #fff;
+    right: 0;
+    bottom: 0;
+  }
+}
