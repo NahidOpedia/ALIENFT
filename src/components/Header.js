@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className="desktop">
       {/* desktop header */}
-      <div className="container-custome">
+      <div className="container-custome headerC">
         <div className="row">
           <div className="col-md-4">
             <div className="logo">
@@ -24,7 +24,8 @@ function Header() {
                 <div className="border2"></div>
                 <div className="border3"></div>
                 <div className="border4"></div>
-                Mint date: May 14th 2:00pm est Lootpad.io
+                Mint date:
+                <b className="px-1">May 14th 2:00pm est Lootpad.io</b>
               </li>
             </ul>
           </div>

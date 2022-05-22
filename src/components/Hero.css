@@ -9,20 +9,31 @@
 p {
   margin: 0;
 }
+
+.traits {
+  height: 500px;
+}
+.priceing {
+  margin-top: 100px !important;
+}
 .details {
   position: relative;
   padding: 24px;
+
+  transition: 0.4s ease-in-out;
+  overflow: hidden;
 }
+
 .details h1 {
   font-family: "Advent Pro";
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 54px;
   line-height: 77px;
 
   color: #ffffff;
-
   text-shadow: 0px 0px 47px rgba(0, 0, 0, 0.3);
+  transition: 2s ease 0.8s;
 }
 .details .hero-content {
   background: #1f1f1fa8;
@@ -33,6 +44,9 @@ p {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+  opacity: 0;
+  height: 0px;
+  transition: 2s ease 0.5s;
 }
 .details .hero-content p {
   font-family: "Advent Pro";
@@ -42,6 +56,23 @@ p {
   line-height: 29px;
   text-align: justify;
   color: #ffffff;
+}
+.secondcontent {
+  height: 100px !important;
+}
+
+.secondcontent b,
+.secondcontent p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.priceing .details {
+  width: 150px;
+  transition: 2s ease 0.5s;
 }
 
 .details .border1 {
@@ -80,5 +111,3 @@ p {
   top: 0;
   right: 0px;
 }
-
-

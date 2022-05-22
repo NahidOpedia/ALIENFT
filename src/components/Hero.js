@@ -1,14 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Hero.css";
 import LoaderProgress from "./LoaderProgress/LoaderProgress";
 
 function Hero() {
+  const [style, setStyle] = useState({});
+  const [pricingstyle, setPricingstyle] = useState({});
+
+  setTimeout(() => {
+    const newStyle = {
+      opacity: 1,
+      height: "300px",
+    };
+    const newStyle2 = {
+      width: "100%",
+    };
+
+    setStyle(newStyle);
+    setPricingstyle(newStyle2);
+  }, 600);
+
   return (
     <div className="hero">
       <div className="container-custome herosection">
         {/* details */}
 
-        <div className="row">
+        <div className="row traits">
           <div className="col-md-6">
             <div className="details">
               <div className="border1"></div>
@@ -18,7 +34,7 @@ function Hero() {
 
               <h1>2500 NFTs with over 100 traits</h1>
 
-              <div className="hero-content">
+              <div className="hero-content" style={style}>
                 <p>
                   CRONOS ALIENFT our limited gen 2 collection consists of 2500
                   NFTs with over 100 traits among 8 categories, with a variety
@@ -41,24 +57,20 @@ function Hero() {
           <div className="col-md-6"></div>
         </div>
 
-        <br />
-        <br />
-        <br />
-        <br />
-        <div className="row">
+        <div className="row priceing">
           <div className="col-md-4">
-            <div className="details">
+            <div className="details" style={pricingstyle}>
               <div className="border1"></div>
               <div className="border4"></div>
 
-              <div className="hero-content">
+              <div className="hero-content secondcontent" style={style}>
                 <p>Public Price: 250 CRO</p>
                 <b>225 CRO for Gen 1 holders and WL</b>
               </div>
             </div>
           </div>
           <div className="col-md-6 offset-md-1">
-            <div className="details">
+            <div className="details1">
               <div className="hero-content">
                 <p>Count down till the arrival!</p>
                 <LoaderProgress />

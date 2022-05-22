@@ -1,8 +1,23 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Roadmap = () => {
+  const [pricingstyle, setPricingstyle] = useState({});
+  const [pricingstyle1, setPricingstyle1] = useState({});
+
+  setTimeout(() => {
+    const newStyle = {
+      marginLeft: "0",
+    };
+    const newStyle1 = {
+      marginLeft: "0",
+    };
+
+    setPricingstyle(newStyle);
+    setPricingstyle1(newStyle1);
+  }, 600);
+
   useEffect(() => {
     AOS.init();
   }, []);
@@ -22,12 +37,12 @@ const Roadmap = () => {
         </div>
       </div>
       <div className="timeline">
-        <div
-          className="section left section__one"
-          data-aos="fade-up"
-          data-aos-duration="3000"
-        >
+        <div className="section left section__one" style={pricingstyle1}>
           <div className="content">
+            <div className="border1"></div>
+            <div className="border2"></div>
+            <div className="border3"></div>
+            <div className="border4"></div>
             <div className="content__title">
               <span>Phase 1 Q3</span>
             </div>
@@ -41,12 +56,13 @@ const Roadmap = () => {
             </div>
           </div>
         </div>
-        <div
-          className="section right section__two"
-          data-aos="fade-up"
-          data-aos-duration="3000"
-        >
+
+        <div className="section right section__two" style={pricingstyle}>
           <div className="content">
+            <div className="border1"></div>
+            <div className="border2"></div>
+            <div className="border3"></div>
+            <div className="border4"></div>
             <div className="content__title">
               <span>Phase 2 Q3</span>
             </div>
@@ -59,12 +75,13 @@ const Roadmap = () => {
             </div>
           </div>
         </div>
-        <div
-          className="section left section__three"
-          data-aos="fade-up"
-          data-aos-duration="3000"
-        >
+
+        <div className="section left section__three" style={pricingstyle1}>
           <div className="content">
+            <div className="border1"></div>
+            <div className="border2"></div>
+            <div className="border3"></div>
+            <div className="border4"></div>
             <div className="content__title">
               <span>Phase 3 Q4</span>
             </div>
@@ -76,12 +93,18 @@ const Roadmap = () => {
             </div>
           </div>
         </div>
+
         <div
           className="section right section__four"
-          data-aos="fade-up"
-          data-aos-duration="3000"
+          // data-aos="fade-right"
+          // data-aos-duration="700"
+          style={pricingstyle}
         >
           <div className="content">
+            <div className="border1"></div>
+            <div className="border2"></div>
+            <div className="border3"></div>
+            <div className="border4"></div>
             <div className="content__title">
               <span>Phase 4</span>
             </div>

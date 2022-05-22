@@ -1,24 +1,26 @@
 .loader {
   flex-direction: column;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   display: flex;
   /* height: 100vh; */
   margin: 0;
 }
 
-.progress {
+.progress1 {
   border-radius: 2px;
   position: relative;
   margin: 15px 0;
-  height: 30px;
-  background: black;
+  height: 2rem !important;
+  background: #000000;
 }
 
 .progress-done {
-  background: linear-gradient(to left, #acaaab, #e8e3e2);
-  box-shadow: 0 3px 3px -5px #818181, 0 2px 5px #d9cfd2;
-  border-radius: 2px;
+  background: linear-gradient(to left, #ffffff, #ffffff);
+  /* box-shadow: 0 3px 3px -5px #818181, 0 2px 5px #d9cfd2; */
+  border-radius: 0px;
   color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;

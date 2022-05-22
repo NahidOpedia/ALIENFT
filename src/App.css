@@ -5,6 +5,7 @@ body {
   padding: 0;
   outline: 0;
   font-family: "Oxanium", cursive;
+  background-color: #000;
 }
 
 body::-webkit-scrollbar {
@@ -19,16 +20,35 @@ body::-webkit-scrollbar-thumb {
   background-color: #041b4888;
   border-radius: 20px;
 }
+body::-webkit-scrollbar:horizontal {
+  width: 0.1em;
+  height: 0.1px;
+}
 
 body {
   margin: 0;
   padding: 0;
   outline: 0;
-  font-family: "Oxanium", cursive;
+  font-family: "Advent Pro" !important;
 }
 .container-custome {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
+}
+.desktop {
+  background-color: #00000024;
+  padding: 20px 0;
+}
+.navmenu ul li {
+  font-weight: 600;
+  font-size: 24px;
+  cursor: pointer;
+}
+.logo {
+  cursor: pointer;
+}
+.navmenu ul li:hover {
+  color: rgb(230, 230, 230);
 }
 
 .top {
@@ -37,6 +57,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 1000px;
 }
 .topfaq {
   /* padding: 64px 0px; */
@@ -44,12 +65,14 @@ body {
   /* background-position: center; */
   background-size: cover;
   /* background-repeat: no-repeat; */
-  height: 150vh;
+  min-height: 150vh;
 }
 .topbanner {
   background-image: url(./assets/logo/bgc.png);
   background-position: right;
   background-repeat: no-repeat;
+  opacity: 0;
+  transition: 2s ease 0.8s;
 }
 /* ==========================================
      timeline section start here 
@@ -73,20 +96,21 @@ body {
 }
 
 .timeline_section {
-  padding: 490px 0 390px;
+  padding: 100px 0 390px;
   background-color: #000;
+  height: 140vh;
 }
 
 .timeline {
   position: relative;
   margin: 0 auto;
-  width: 60%;
+  width: 36%;
 }
 
 .timeline::after {
   content: "";
   position: absolute;
-  outline: 2px solid #ffffff;
+  outline: 3px solid #ffffff;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -97,6 +121,14 @@ body {
   position: relative;
   background-color: inherit;
   width: 50%;
+}
+.right {
+  margin-left: -2000px;
+  transition: 2s ease 0.5s;
+}
+.left {
+  margin-left: 1900px;
+  transition: 2s ease 0.5s;
 }
 
 .section::after {
@@ -119,7 +151,7 @@ body {
   height: 3px;
   right: 13px;
   background: white;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   top: 23px;
   border-radius: 5%;
   z-index: 1;
@@ -132,7 +164,7 @@ body {
   height: 3px;
   left: 7px;
   background: white;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   top: 23px;
   border-radius: 5%;
   z-index: 1;
@@ -152,9 +184,46 @@ body {
 }
 
 .content {
-  padding: 20px 50px;
+  padding: 35px 50px;
   position: relative;
   border-radius: 6px;
+}
+
+.content .border1 {
+  height: 60px;
+  width: 60px;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+}
+.content .border2 {
+  height: 60px;
+  width: 60px;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+}
+.content .border3 {
+  height: 60px;
+  width: 60px;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+.content .border4 {
+  height: 60px;
+  width: 60px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  position: absolute;
+  top: 0;
+  right: 0px;
 }
 
 .section__one .content,
@@ -173,6 +242,7 @@ body {
   /* text-align: right; */
   margin-right: 60px;
 }
+
 .section.right .content {
   /* text-align: right; */
   margin-left: 60px;
@@ -1026,6 +1096,7 @@ body {
 
   .timeline_section {
     padding: 50px 0 0;
+    overflow: hidden;
   }
 
   .copyright {

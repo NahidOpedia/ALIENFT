@@ -56,7 +56,7 @@ function Partner() {
               <div className="border2"></div>
               <div className="border3"></div>
               <div className="border4"></div>
-              <h1>Come aboard the mothership earthling…</h1>
+              <h2>Come aboard the mothership earthling…</h2>
               <ul className="d-flex">
                 <li>
                   <a href="http://" target="_blank" rel="noopener noreferrer">

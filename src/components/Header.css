@@ -17,7 +17,7 @@
 
 .desktop .navmenu .action {
   display: flex;
-  background: #1f1f1f;
+  background: #2d2d2dad;
   padding: 18px 30px;
   font-family: "Advent Pro";
   font-style: normal;
@@ -31,38 +31,59 @@
 }
 
 .desktop .navmenu .action .border1 {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   border-bottom: 2px solid white;
   border-left: 2px solid white;
   position: absolute;
   bottom: 0;
   left: 0px;
+  transition: 0.4s ease-in-out;
 }
 .desktop .navmenu .action .border2 {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   border-bottom: 2px solid white;
   border-right: 2px solid white;
   position: absolute;
   bottom: 0;
   right: 0px;
+  transition: 0.4s ease-in-out;
 }
 .desktop .navmenu .action .border3 {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   border-top: 2px solid white;
   border-left: 2px solid white;
   position: absolute;
   top: 0;
+  transition: 0.4s ease-in-out;
   left: 0px;
 }
 .desktop .navmenu .action .border4 {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   border-top: 2px solid white;
   border-right: 2px solid white;
   position: absolute;
   top: 0;
   right: 0px;
+  transition: 0.4s ease-in-out;
+}
+
+.desktop .navmenu .action:hover .border1 {
+  width: 50%;
+  height: 50%;
+}
+.desktop .navmenu .action:hover .border2 {
+  width: 50%;
+  height: 50%;
+}
+.desktop .navmenu .action:hover .border3 {
+  width: 50%;
+  height: 50%;
+}
+.desktop .navmenu .action:hover .border4 {
+  width: 50%;
+  height: 50%;
 }

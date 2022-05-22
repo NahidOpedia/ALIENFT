@@ -5,9 +5,19 @@
   font-size: 64px;
   line-height: 77px;
   /* identical to box height */
-
   text-align: justify;
-
+  color: #ffffff;
+  padding-top: 199px;
+  margin-bottom: 100px;
+}
+.partner h2 {
+  font-family: "Advent Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 77px;
+  /* identical to box height */
+  text-align: justify;
   color: #ffffff;
 }
 
@@ -86,3 +96,9 @@
 .single ul li {
   margin: 44px 40px;
 }
+
+/* footer  */
+.footer {
+  margin-top: 140px;
+}
+/* footer  */
