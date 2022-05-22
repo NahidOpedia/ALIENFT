@@ -2,10 +2,12 @@
   font-style: normal;
   font-weight: 300;
   font-size: 32px;
-  padding: 32px;
+  padding: 12px 32px;
   line-height: 30px;
 }
-
+.icons {
+  font-size: 40px;
+}
 .details {
   font-style: normal;
   font-weight: 500;
@@ -24,8 +26,8 @@
 .accord-body {
   position: relative;
   background: #6f6e6e43;
-  padding: 32px 0;
-  margin-bottom: 16px;
+  padding: 12px 0;
+  margin-bottom: 20px;
 }
 .accord-body:last-child {
   margin-bottom: 0px;
@@ -84,7 +86,7 @@ button {
 }
 
 .costom-css1 {
-  width: 100%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
   align-items: center;

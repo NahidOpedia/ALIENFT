@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./FQA.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faAngleRight, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 const sammy = [
   {
@@ -62,12 +61,13 @@ const FQA = () => {
             /> */}
 
               <p
+                className="icons"
                 onClick={() => {
                   setToggle(!toggle);
-                  setSelecred(item.id);
+                  selecred !== item.id && setSelecred(item.id);
                 }}
               >
-                {selecred === item.id && toggle ? "u" : "v"}
+                {selecred === item.id ? <IoIosArrowUp /> : <IoIosArrowDown />}
               </p>
             </button>
 
