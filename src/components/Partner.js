@@ -9,11 +9,11 @@ function Partner() {
   return (
     <div className="top ">
       <div className="partner container">
-        <h1 className="text-center">Partner</h1>
+        <h1 className="text-center wow fadeInDown">Partner</h1>
 
         <div className="row ">
-          <div className="col-md-4">
-            <div className="single">
+          <div className="col-md-4 wow fadeInTopLeft">
+            <div className="single ">
               <div className="border1"></div>
               <div className="border2"></div>
               <div className="border3"></div>
@@ -23,7 +23,7 @@ function Partner() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 wow fadeInUp ">
             <div className="single">
               <div className="border1"></div>
               <div className="border2"></div>
@@ -34,7 +34,7 @@ function Partner() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 wow fadeInTopRight">
             <div className="single">
               <div className="border1"></div>
               <div className="border2"></div>

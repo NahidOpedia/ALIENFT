@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./FQA.css";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
@@ -7,31 +7,37 @@ const sammy = [
     id: 1,
     title: "How many ALIENFTS will be minted?",
     details: "2500 AIENFT gen 2s will be minted!",
+    delay: 0.1,
   },
   {
     id: 2,
     title: "What will the mint price be?",
     details: "2500 AIENFT gen 2s will be minted!",
+    delay: 0.2,
   },
   {
     id: 3,
     title: "Is Cronos ALIENFT team doxed?",
     details: "2500 AIENFT gen 2s will be minted!",
+    delay: 0.3,
   },
   {
     id: 4,
     title: "Does ALIENFT have any partners?",
     details: "2500 AIENFT gen 2s will be minted!",
+    delay: 0.4,
   },
   {
     id: 5,
     title: "Giving back to the community and charitable donations?",
     details: "2500 AIENFT gen 2s will be minted!",
+    delay: 0.5,
   },
   {
     id: 6,
     title: "Will ALIENFT have a rarity ranking system?",
     details: "2500 AIENFT gen 2s will be minted!",
+    delay: 0.6,
   },
 ];
 
@@ -39,12 +45,16 @@ const FQA = () => {
   const [toggle, setToggle] = useState(false);
   const [selecred, setSelecred] = useState(1);
 
-  console.log(toggle);
   return (
+    // <ReactWOW animation="fadeIn">
     <div className="topfaq">
-      <div className="faq-container">
-        {sammy.map((item) => (
-          <div className="accord-body">
+      <div className="wow bounceInLeft faq-container">
+        {sammy.map((item, index) => (
+          <div
+            className={`accord-body wow bounceInLeft animate__delay-${index}s`}
+            data-wow-duration="2s"
+            data-wow-delay={`${item.delay}s`}
+          >
             <div className="shape"></div>
             <div className="shape-2"></div>
             <div className="shape-3"></div>
@@ -80,6 +90,7 @@ const FQA = () => {
         ))}
       </div>
     </div>
+    // </ReactWOW>
   );
 };
 

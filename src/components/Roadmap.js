@@ -6,20 +6,20 @@ const Roadmap = () => {
   const [pricingstyle, setPricingstyle] = useState({});
   const [pricingstyle1, setPricingstyle1] = useState({});
 
-  setTimeout(() => {
-    const newStyle = {
-      marginLeft: "0",
-    };
-    const newStyle1 = {
-      marginLeft: "0",
-    };
-
-    setPricingstyle(newStyle);
-    setPricingstyle1(newStyle1);
-  }, 600);
-
   useEffect(() => {
     AOS.init();
+
+    setTimeout(() => {
+      const newStyle = {
+        marginLeft: "0",
+      };
+      const newStyle1 = {
+        marginLeft: "0",
+      };
+
+      setPricingstyle(newStyle);
+      setPricingstyle1(newStyle1);
+    }, 600);
   }, []);
   return (
     <div
@@ -33,7 +33,7 @@ const Roadmap = () => {
     >
       <div className="container">
         <div className="timeline__title">
-          <h4>Utility & Roadmap</h4>
+          <h4 className="wow fadeInDown">Utility & Roadmap</h4>
         </div>
       </div>
       <div className="timeline">
