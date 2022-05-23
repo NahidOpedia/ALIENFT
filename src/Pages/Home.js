@@ -23,8 +23,7 @@ const Home = () => {
       setBgstyle(newStyle);
     }, 200);
   }, []);
-
-  console.log("roadmap scroll:");
+  console.log("Roadmap", window.pageYOffset);
   return (
     <div>
       <div className="top">

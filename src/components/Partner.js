@@ -12,14 +12,14 @@ function Partner() {
         <h1 className="text-center wow fadeInDown">Partner</h1>
 
         <div className="row ">
-          <div className="col-md-4 wow fadeInTopLeft">
+          <div className="col-md-4 wow bounceInLeft">
             <div className="single ">
               <div className="border1"></div>
               <div className="border2"></div>
               <div className="border3"></div>
               <div className="border4"></div>
               <div className="img">
-                <img src={partner1} alt="" />
+                <img src={partner1} alt="partner1" />
               </div>
             </div>
           </div>
@@ -30,18 +30,18 @@ function Partner() {
               <div className="border3"></div>
               <div className="border4"></div>
               <div className="img">
-                <img src={partner2} alt="" />
+                <img src={partner2} alt="partner1" />
               </div>
             </div>
           </div>
-          <div className="col-md-4 wow fadeInTopRight">
+          <div className="col-md-4 wow bounceInRight">
             <div className="single">
               <div className="border1"></div>
               <div className="border2"></div>
               <div className="border3"></div>
               <div className="border4"></div>
               <div className="img">
-                <img src={partner3} alt="" />
+                <img src={partner3} alt="partner1" />
               </div>
             </div>
           </div>

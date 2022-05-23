@@ -123,11 +123,11 @@ body {
   width: 50%;
 }
 .right {
-  margin-left: -2000px;
+  /* margin-left: -2000px; */
   transition: 2s ease 0.5s;
 }
 .left {
-  margin-left: 1900px;
+  /* margin-left: 1900px; */
   transition: 2s ease 0.5s;
 }
 

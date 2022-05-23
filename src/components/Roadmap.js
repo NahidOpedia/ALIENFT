@@ -11,16 +11,17 @@ const Roadmap = () => {
 
     setTimeout(() => {
       const newStyle = {
-        marginLeft: "0",
+        // marginLeft: "0",
       };
       const newStyle1 = {
-        marginLeft: "0",
+        // marginLeft: "0",
       };
 
       setPricingstyle(newStyle);
       setPricingstyle1(newStyle1);
     }, 600);
   }, []);
+
   return (
     <div
       className="timeline_section top"
@@ -37,7 +38,11 @@ const Roadmap = () => {
         </div>
       </div>
       <div className="timeline">
-        <div className="section left section__one" style={pricingstyle1}>
+        <div
+          className="section left section__one wow bounceInLeft"
+          data-wow-duration="2s"
+          data-wow-delay={`1s`}
+        >
           <div className="content">
             <div className="border1"></div>
             <div className="border2"></div>
@@ -57,7 +62,11 @@ const Roadmap = () => {
           </div>
         </div>
 
-        <div className="section right section__two" style={pricingstyle}>
+        <div
+          className="section right section__two wow bounceInRight"
+          data-wow-duration="2s"
+          data-wow-delay={`1s`}
+        >
           <div className="content">
             <div className="border1"></div>
             <div className="border2"></div>
@@ -76,7 +85,11 @@ const Roadmap = () => {
           </div>
         </div>
 
-        <div className="section left section__three" style={pricingstyle1}>
+        <div
+          className="section left section__three wow bounceInLeft"
+          data-wow-duration="2s"
+          data-wow-delay={`1s`}
+        >
           <div className="content">
             <div className="border1"></div>
             <div className="border2"></div>
@@ -95,10 +108,9 @@ const Roadmap = () => {
         </div>
 
         <div
-          className="section right section__four"
-          // data-aos="fade-right"
-          // data-aos-duration="700"
-          style={pricingstyle}
+          className="section right section__four wow bounceInRight"
+          data-wow-duration="2s"
+          data-wow-delay={`1s`}
         >
           <div className="content">
             <div className="border1"></div>
