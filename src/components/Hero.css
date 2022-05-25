@@ -114,3 +114,18 @@ p {
   top: 0;
   right: 0px;
 }
+
+.hero-content .bld {
+  font-family: "Advent Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #ffffff;
+}
+
+.priceing .details1 {
+  background: #1f1f1f7d;
+  padding: 20px 40px;
+}

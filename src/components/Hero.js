@@ -9,7 +9,7 @@ function Hero() {
   setTimeout(() => {
     const newStyle = {
       opacity: 1,
-      height: "370px",
+      height: "375px",
     };
     const newStyle2 = {
       width: "100%",
@@ -60,7 +60,7 @@ function Hero() {
         </div>
 
         <div className="row priceing">
-          <div className="col-xl-4 col-md-6  col-12">
+          <div className="col-xl-4 col-md-5  col-12">
             <div className="details" style={pricingstyle}>
               <div className="border1"></div>
               <div className="border4"></div>
@@ -71,10 +71,10 @@ function Hero() {
               </div>
             </div>
           </div>
-          <div className="col-xl-4 col-md-5 col-12  offset-xl-1 offset-1">
+          <div className="col-xl-6 col-md-6 col-12  offset-xl-1 ">
             <div className="details1">
               <div className="hero-content">
-                <b>Count down till the arrival!</b>
+                <b className="bld">Count down till the arrival!</b>
                 <LoaderProgress />
               </div>
             </div>

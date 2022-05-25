@@ -118,7 +118,7 @@ body {
 .timeline {
   position: relative;
   margin: 0 auto;
-  width: 36%;
+  width: 44%;
 }
 
 .timeline::after {
@@ -264,7 +264,8 @@ body {
 
 .content .content__title span {
   color: #fff;
-  font-size: 22px;
+  font-weight: 700;
+  font-size: 32px;
   padding-bottom: 12px;
   position: relative;
 }
@@ -278,6 +279,8 @@ body {
 .content .content__list ul li {
   list-style: none;
   color: #fff;
+  font-weight: 600;
+  font-size: 22px;
 }
 
 .content .content__list ul li p {
@@ -1244,10 +1247,20 @@ body {
 }
 @media screen and (max-width: 1400px) {
   .timeline {
-    /* width: 65%; */
+    width: 70%;
+  }
+  .desktop .navmenu ul li:last-child {
+    list-style: none;
+    margin: 0px 2px !important;
   }
 }
 @media screen and (max-width: 1024px) {
+  .partner h2 {
+    font-size: 27px !important;
+  }
+  .single ul li {
+    margin: 4px 40px 20px !important;
+  }
   .details .heroh1,
   .topfaq .heroh1 {
     font-family: "Advent Pro";
@@ -1271,6 +1284,7 @@ body {
     line-height: 19px;
     text-align: justify;
     color: #ffffff;
+    padding-bottom: 10px !important;
   }
 
   .timelineres {
@@ -1357,12 +1371,54 @@ body {
   .partner h2 {
     font-size: 34px;
   }
+  .partner .single .border1,
+  .partner .single .border2,
+  .partner .single .border3,
+  .partner .single .border4 {
+    height: 80px !important;
+    width: 80px !important;
+  }
+  .details .border1,
+  .details .border2,
+  .details .border3,
+  .details .border4 {
+    height: 80px !important;
+    width: 80px !important;
+  }
+  .desktop .navmenu ul li:last-child {
+    list-style: none;
+    margin: 0px 2px !important;
+  }
+  .hero-content .bld {
+    font-weight: 400 !important;
+    font-size: 22px !important;
+  }
 }
 @media screen and (max-width: 992px) {
+  .partner h2 {
+    font-size: 22px !important;
+  }
+  .footer .single {
+    padding: 10px !important;
+  }
 }
 @media screen and (max-width: 768px) {
   .partner h2 {
-    font-size: 24px;
+    font-size: 22px !important;
+  }
+  .partner .single .border1,
+  .partner .single .border2,
+  .partner .single .border3,
+  .partner .single .border4 {
+    height: 60px !important;
+    width: 60px !important;
+  }
+  .details .border1,
+  .details .border2,
+  .details .border3,
+  .details .border4 {
+    height: 60px !important;
+    width: 60px !important;
   }
 }
 @media screen and (max-width: 575px) {
@@ -1378,6 +1434,42 @@ body {
 @media screen and (max-width: 420px) {
 }
 @media screen and (max-width: 375px) {
+  .partner .single .border1,
+  .partner .single .border2,
+  .partner .single .border3,
+  .partner .single .border4 {
+    height: 50px !important;
+    width: 50px !important;
+  }
+  .details .border1,
+  .details .border2,
+  .details .border3,
+  .details .border4 {
+    height: 50px !important;
+    width: 50px !important;
+  }
+  .hero-content .bld {
+    font-weight: 300 !important;
+    font-size: 16px !important;
+  }
 }
 @media screen and (max-width: 320px) {
+  .footer .single ul li {
+    font-size: 20px;
+  }
+
+  .single ul li {
+    margin: 0px 20px;
+    cursor: pointer;
+  }
+  .partner .single .border1,
+  .partner .single .border2,
+  .partner .single .border3,
+  .partner .single .border4 {
+    height: 50px !important;
+    width: 50px !important;
+  }
+  .footer .single {
+    padding: 10px !important;
+  }
 }

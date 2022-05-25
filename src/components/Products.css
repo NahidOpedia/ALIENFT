@@ -18,3 +18,60 @@
 .footer .single ul li {
   font-size: 40px;
 }
+
+@media screen and (max-width: 320px) {
+  .footer .single ul li {
+    font-size: 20px;
+  }
+
+  .single ul li {
+    margin: 0px 20px;
+    cursor: pointer;
+  }
+  .partner .single .border1,
+  .partner .single .border2,
+  .partner .single .border3,
+  .partner .single .border4 {
+    height: 50px;
+    width: 50px;
+  }
+  .details .border1,
+  .details .border2,
+  .details .border3,
+  .details .border4 {
+    height: 50px;
+    width: 50px;
+  }
+  .footer .single {
+    padding: 10px;
+  }
+  .pera {
+    font-size: 40px;
+    margin: 50px 0px 20px;
+  }
+  .section {
+    width: 85%;
+  }
+  .section.right .content {
+    margin-left: 6px;
+  }
+  .right::before {
+    width: 10px;
+  }
+
+  /* hero */
+  .details .heroh1,
+  .topfaq .heroh1 {
+    line-height: 27px;
+  }
+  .details .border1,
+  .details .border2,
+  .details .border3,
+  .details .border4 {
+    height: 50px;
+    width: 50px;
+  }
+  .details {
+    padding: 10px 0px;
+  }
+}

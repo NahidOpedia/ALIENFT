@@ -96,6 +96,7 @@
 }
 .single ul li {
   margin: 44px 40px;
+  cursor: pointer;
 }
 
 /* footer  */

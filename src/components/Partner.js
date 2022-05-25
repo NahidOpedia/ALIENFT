@@ -64,10 +64,22 @@ function Partner() {
               </h2>
               <ul className="list-unstyled d-flex">
                 <li>
-                  <FaTelegramPlane />
+                  <a
+                    className="link"
+                    href="https://telegram.org/"
+                    target="_blank"
+                  >
+                    <FaTelegramPlane />
+                  </a>
                 </li>
                 <li>
-                  <AiOutlineTwitter />
+                  <a
+                    className="link"
+                    href="https://twitter.com/"
+                    target="_blank"
+                  >
+                    <AiOutlineTwitter />
+                  </a>
                 </li>
               </ul>
             </div>
