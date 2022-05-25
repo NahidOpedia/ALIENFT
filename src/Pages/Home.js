@@ -7,6 +7,7 @@ import Partner from "../components/Partner";
 import FQA from "../components/FQA";
 
 import WOW from "wowjs";
+import Products from "../components/Products";
 const Home = () => {
   const [bgstyle, setBgstyle] = useState({});
 
@@ -27,14 +28,15 @@ const Home = () => {
   return (
     <div>
       <div className="top">
-        <div className="topbanner" style={bgstyle}>
+        <div className="topbanner topbannerred" style={bgstyle}>
           <Header />
           <Hero />
         </div>
       </div>
 
       <Roadmap />
-      <FQA />
+      <Products />
+      {/* <FQA /> */}
       <Partner />
     </div>
   );

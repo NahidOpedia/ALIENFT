@@ -48,6 +48,7 @@ const FQA = () => {
   return (
     // <ReactWOW animation="fadeIn">
     <div className="topfaq">
+      <h1 className="text-center heroh1">FAQ</h1>
       <div className="wow bounceInLeft faq-container">
         {sammy.map((item, index) => (
           <div

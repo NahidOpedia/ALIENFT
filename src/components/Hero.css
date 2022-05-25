@@ -38,7 +38,7 @@ p {
 .details .hero-content {
   background: #1f1f1fa8;
   opacity: 1;
-  padding: 18px 30px;
+  padding: 18px 20px;
   font-family: "Advent Pro";
   font-style: normal;
   font-weight: 400;
@@ -47,6 +47,7 @@ p {
   opacity: 0;
   height: 0px;
   transition: 2s ease 0.5s;
+  overflow: hidden;
 }
 .details .hero-content p {
   font-family: "Advent Pro";
@@ -69,6 +70,8 @@ p {
   -webkit-line-clamp: 1;
   line-clamp: 1;
   -webkit-box-orient: vertical;
+  text-align: start;
+  margin-top: 10px;
 }
 .priceing .details {
   width: 150px;

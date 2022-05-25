@@ -11,7 +11,7 @@ const Progress = ({ done }) => {
     };
 
     setStyle(newStyle);
-  }, 700);
+  }, 300);
 
   return (
     <div className="progress1">
@@ -25,7 +25,7 @@ const Progress = ({ done }) => {
 function LoaderProgress() {
   return (
     <div className="loader">
-      <Progress done="25" />
+      <Progress done="75" />
     </div>
   );
 }

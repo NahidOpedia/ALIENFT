@@ -1,0 +1,20 @@
+.pera {
+  font-size: 60px;
+  font-weight: bold;
+  width: 100%;
+  color: #fff;
+  display: inline-block;
+  margin: 100px 0px;
+  text-align: center;
+}
+.products .content {
+  padding: 35px 20px;
+}
+.content .des {
+  text-align: center;
+  background: #31313182;
+  padding: 10px;
+}
+.footer .single ul li {
+  font-size: 40px;
+}
