@@ -8,9 +8,49 @@
   text-align: center;
 }
 .products .content {
-  padding: 35px 20px;
+  padding: 0px;
+  margin: 10px 0px;
+  position: relative;
 }
-.content .des {
+
+.products .content .border1 {
+  height: 100px;
+  width: 100px;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+}
+.products .content .border2 {
+  height: 100px;
+  width: 100px;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+}
+.products .content .border3 {
+  height: 100px;
+  width: 100px;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+.products .content .border4 {
+  height: 100px;
+  width: 100px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+
+.img .content .des {
   text-align: center;
   background: #31313182;
   padding: 10px;

@@ -13,6 +13,10 @@ function Products() {
     <div id="nft" className="top products">
       <div className="container">
         <h4 className="pera">NFT Products</h4>
+        <div className="des d-flex justify-content-center align-items-center flex-column">
+          <h4>Whitelist Price: 250 Cro</h4>
+          <h4>Public Mint: 300</h4>
+        </div>
         <div className="row">
           {[product1, product2, product3, product4, product5, product6].map(
             (item, index) => (
@@ -22,12 +26,12 @@ function Products() {
                 data-wow-delay={`0.${index}s`}
               >
                 <div className="content">
+                  <div className="border1"></div>
+                  <div className="border2"></div>
+                  <div className="border3"></div>
+                  <div className="border4"></div>
                   <div className="img">
                     <img className="img-fluid" src={item} alt="" />
-                  </div>
-                  <div className="des">
-                    <h4>Whitelist Price: 250 Cro</h4>
-                    <h4>Public Mint: 300</h4>
                   </div>
                 </div>
               </div>

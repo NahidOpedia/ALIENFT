@@ -9,7 +9,8 @@ function Hero() {
   setTimeout(() => {
     const newStyle = {
       opacity: 1,
-      height: "375px",
+      height: "185px",
+      boxShadow: "-1px 1px 5px 1px rgb(151 151 151 / 61%)",
     };
     const newStyle2 = {
       width: "100%",
@@ -39,19 +40,10 @@ function Hero() {
                   Pirate Bux is a passive income generating token with its own
                   protocol-owned liquidity on the Cronos Blockchain. A 12% buy
                   tax is levied on evert purchase consisting of 6% which will
-                  provide MMF reflections on every buy and sell of the token for
-                  its holders, 2% token burn, 2% LP, and 2 POL. On every sale,
-                  14% is levied, and the additional 2% is levied for future NFT
-                  reward
-                </p>
-                <p className="pera">
-                  After a long hard month our gen 1 aliens have finally set up a
-                  reconnaissance base on earth, with this new base our aliens
-                  plan on setting up a new home to house and welcome the arrival
-                  of the gen 2 aliens, These lovely life forms aren’t suspected
-                  to arrive until may 14th 2:00pm est with an ensemble of high
-                  focus fashion and a quirky pop culture design sure to please
-                  everyone they come in contact with!
+                  provide Treasure reflections on every buy and sell of the
+                  token for its holders, 2% token burn, 2% LP, and 2 POL. On
+                  every sale, 14% is levied, and the additional 2% is levied for
+                  future NFT reward.
                 </p>
               </div>
             </div>
